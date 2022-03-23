@@ -1,1 +1,3 @@
 ---
+  - name: Creating test file with date
+    shell: echo "Test file creation is successful - time -  `date`" >> /tmp/temporary.log
